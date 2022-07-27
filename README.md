@@ -34,5 +34,5 @@ Merci à gayel pour les idées fournies et présentées, sans qui le projet sera
 
 ## Contact Information
 
-_Si après avoir lu tout ca et analyser mon code vous souhaitez me contacter, merci de rester professionnel et de ne pas m'envoyer de menaces de mort pour avoir pondu une attrocité pareil, c'est mon bébé et même s'il est moche, peu sécurisé et à peine fonctionnel il fait ce pourquoi il a été créé et je l'aime.
+_Si après avoir lu tout ca et analyser mon code vous souhaitez me contacter, merci de rester professionnel et de ne pas m'envoyer de menaces de mort. Les insultes ne sont pas destinées au lecteur, les prendre personnellement ne serait qu'une grossière erreur. 
 Mail: hugo.lm2707@gmail.com_
