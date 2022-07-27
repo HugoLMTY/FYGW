@@ -1,0 +1,16 @@
+{
+	"name": "fygw",
+	"version": "0.6.9",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"dev": "nodemon app.js"
+	},
+	"author": "skr",
+	"license": "ISC",
+	"dependencies": {
+		"colors": "^1.4.0",
+		"nodemon": "^2.0.19"
+	}
+}
