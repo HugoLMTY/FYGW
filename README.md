@@ -14,7 +14,7 @@ _Utiliser FYGW, c'est dire au revoir aux petits tracats du quotidien. Maintenant
 
 ## Remerciements
 
-Merci à gayel pour les idées fournies et présentées, sans qui le projet serait surement également là mais pas aussi concret.
+Merci à gayel pour les idées fournies et présentées, sans qui le projet serait surement également là mais pas aussi concret (et n'aurait pas un nom ausis fringuant).
 
 ## Contributors
 
