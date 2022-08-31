@@ -1,6 +1,11 @@
 [
 	{
-		"name": "déprécié",
+		"name": "",
+		"type": "comment",
+		"content": "Lors de l'ajout d'un suffixe, mettre $ à l'emplacement du 'e' au féminin pour gérer l'accord"
+	},
+	{
+		"name": "déprécié$",
 		"author": "skr"
 	},
 	{
@@ -8,23 +13,19 @@
 		"author": "skr"
 	},
 	{
-		"name": "attardé",
+		"name": "périmé$",
 		"author": "skr"
 	},
 	{
-		"name": "périmé",
+		"name": "décédé$",
 		"author": "skr"
 	},
 	{
-		"name": "décédé",
+		"name": "fatigué$",
 		"author": "skr"
 	},
 	{
-		"name": "fatigué",
-		"author": "skr"
-	},
-	{
-		"name": "émoustillé",
+		"name": "émoustillé$",
 		"author": "skr"
 	},
 	{
@@ -40,11 +41,11 @@
 		"author": "grum0"
 	},
 	{
-		"name": "fini.e à la pisse",
+		"name": "fini$ à la pisse",
 		"author": "grum0"
 	},
 	{
-		"name": "mal baisé",
+		"name": "mal baisé$",
 		"author": "grum0"
 	}
 ]
