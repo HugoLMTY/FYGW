@@ -4,6 +4,13 @@ const suffixes 	= require('./tools/suffixes.json')
 
 const colors 	= require('colors')
 
+const express = require('express')
+const app = express()
+const port = 3001
+
+app.get('/', (req, res) => { res.send(getInsult()) })
+app.listen(port, () => { console.log(`App listening at http://localhost:${port}`) })
+
 /**
  * ? Hola ! 
 
@@ -31,7 +38,7 @@ function getInsult() {
 
 	//? Bypass le random pour avoir une insulte spécifique (pour les tests)
 	const $rig 		= 	{ rigInsult: false, 	pre: true, 		mid: true, 		suf: true, 		range: false 	}
-	const rigged 	= 	[ $rig, 				2, 				6, 				4, 				27 				]
+	const rigged 	= 	[ $rig, 				2, 				6, 				4, 				27				]
 	//*   rigged	=	[ useBypass, 			prefix, 		middle, 		suffix, 		range 			]
 
 
@@ -92,9 +99,9 @@ function getInsult() {
 	const range = rigged[0].range ? rigged[4] : getRand(0, 100)
 
 	//* Range vizualization
-	//? 1111111111111113333333333433333333333333333333333333333333332222222222222222222222222222222222222222
+	//? 1111111111333333333333333433333333333333333333333333333333332222222222222222222222222222222222222222
 	
-	const insultLength = range <= 15
+	const insultLength = range <= 10
 		? 1
 		: range > 60
 			? 2
@@ -140,7 +147,7 @@ function getInsult() {
 }
 
 function main() {
-	const insultCount 	= 1
+	const insultCount 	= 10
 
 	const sortInsults 	= false
 	const stackInsults 	= false
@@ -165,4 +172,4 @@ function main() {
 
 	if (stackInsults) log(insults.join('\n'))
 }
-main()
+// main()
